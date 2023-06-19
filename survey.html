@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, iitial-scale=1.0">
+<link rel="stylesheet" href="style.css"> 
+<title>DOM Javascript</title>
+</head> 
+<body> 
+<div class="container"> 
+<div class="header">
+<h3>Surat kepemilikan glock</h3> 
+</div>
+<form action=""> 
+<label for="nama">Nama</label><br> 
+<input type="text" placeholder="Nama anda" id="nama"><br><br> 
+<label for="tanggal">Tanggal pembelian</label><br>
+<input type="date" name="tanggal"><br><br>
+<label for="generasi">Generasi glock</label><br>
+  <select id="genSelect">
+    <option value="gen 1">GEN 1</option>
+    <option value="gen 2">GEN 2</option>
+    <option value="gen 3">GEN 3</option>
+    <option value="gen 4">GEN 4</option>
+    <option value="gen 5">GEN 5</option>
+  </select><br>
+<p>Model glock :</p> 
+<input type="radio" name="model" id="17" value="Glock 17">
+<label for="Glock 17">Glock 17</label><br> 
+<input type="radio" name="model" id="19" value="Glock 19">
+<label for="Glock 19">Glock 19</label><br> 
+<input type="radio" name="model" id="26" value="Glock 26">
+<label for="Glock 26">Glock 26</label><br> 
+<label for="IDpemilik">ID Pemilik</label><br>
+<input type="text" placeholder="ID anda" id="IDpemilik"><br>
+<label for="">Alamat</label><br> 
+<textarea placeholder="Tulis alamat mu disini" name="alamat" id="alamat" cols="30" rows="5"></textarea><br>
+<button type="submit" onclick="kirimData()">Kirim</button>
+</form> 
+</div>
+<script src="scriptsurvey.js"></script> 
+</body> 
+</html> 

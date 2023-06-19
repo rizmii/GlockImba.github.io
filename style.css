@@ -1,0 +1,30 @@
+body{ 
+    background-image: url(https://img.freepik.com/free-vector/abstract-background-with-squares_23-2148995948.jpg?size=626&ext=jpg&ga=GA1.2.462910317.1680961027&semt=sph); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover; 
+}
+
+    h1{ 
+    font-family: ' Great Vibes ' , 
+    cursive; 
+}
+    h2{ 
+    font-family: 'Lobster Two' , cursive; 
+    letter-spacing: 1px; 
+    text-transform: uppercase; 
+    text-align: center; 
+    border: 2PX solid o #733c3c; 
+    background : 
+    #E4AEC5; 
+    color: 
+    #361500; 
+    box-shadow: Ipx Ipx 2px Z#C69B7B; 
+    border-radius: 1Øpx; 
+    padding: 3px 10px; 
+    cursor: pointer; 
+}
+.gambar{
+    width: 300px;
+    height: 200px;
+}
